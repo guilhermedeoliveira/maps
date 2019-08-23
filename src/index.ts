@@ -1,15 +1,7 @@
 import { User } from "./models/User";
+import { Company } from "./models/Company";
+import { CustomMap } from "./models/CustomMap";
 
 const user = new User();
-
-const mapContainer = document.getElementById("map-container");
-
-const mapOptions = {
-  zoom: 1,
-  center: {
-    lat: 0,
-    lng: 0
-  }
-};
-
-new google.maps.Map(mapContainer, mapOptions);
+const company = new Company();
+const customMap = new CustomMap("map-container");
