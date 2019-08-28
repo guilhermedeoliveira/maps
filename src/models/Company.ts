@@ -21,7 +21,7 @@ export class Company implements Mappable {
 
     return `
       The Company ${this.name}
-      is at coordinate ${lat} ${lng}
+      is at coordinate ${lat}, ${lng}
     `;
   }
 }

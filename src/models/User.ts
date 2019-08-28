@@ -21,7 +21,7 @@ export class User implements Mappable {
 
     return `
       The user ${this.name}
-      is at coordinate ${lat} ${lng}
+      is at coordinate ${lat}, ${lng}
     `;
   }
 }
